@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallika Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#certificates">certificates</a>
+     <a href="#internship">internship</a>
+     <a href="#contact">contact</a>
+    
+</nav>
+
+<header>
+    <img src="assets/profile.jpg" alt="Mallika" class="profile">
+    <h1>Hi, I'm Mallika 👋</h1>
+    <p>Aspiring Full Stack Web Developer|
+B.E. Computer Science Engineering | Pre-Final Year</p>
+
+    <button>View My Projects</button>
+</header>
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am Mallika, a pre-final year B.E. Computer Science Engineering student.I am passionate about learning new technologies and improving my skills in web development 
+    </p>
+</section>
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <h3>HTML</h3>
+    <div class="skill-bar">
+        <div class="html">
+            
+        </div>
+    </div>
+</div>
+    
+
+    <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar">
+            <div class="css">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar">
+            <div class="javascript">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+        <h3>B.E. Computer Science and Engineering</h3>
+        <p>Pre-Final Year Student</p>
+        <p>Renganayagi varatharaj college of engineering</p>
+    </div>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive personal portfolio website created to showcase my profile, technical skills, education, projects, and contact information.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>calculater</h3>
+        <p>A simple calculator developed using HTML, CSS, and JavaScript. It performs basic arithmetic operations such as addition, subtraction, multiplication, and division. This project helped me understand JavaScript functions, DOM manipulation, and event handling.</p>
+    </div>
+    <div class="project-card">
+        <h3>mobile store website</h3>
+        <p>A responsive mobile store website designed to showcase smartphones with product details, pricing, and a clean user interface. The project focuses on creating an attractive and user-friendly shopping experience.</p>
+    </div>
+    <div class="project-card">
+        <h3>job application form</h3>
+        <p>A professional job application form that allows users to enter personal, educational, and professional details. It includes form validation to ensure accurate user input.</p>
+    </div>
+</section>
+<!-- Certificates Section -->
+<section id="certificates">
+    <h2>Certificates</h2>
+
+    <div class="certificate-container">
+
+        <div class="certificate-card">
+            <img src="assets/novitech.jpg" alt="Novitech Certificate">
+
+            <h3>Full Stack Development Masterclass</h3>
+            <h4>Novitech | 30 Days</h4>
+
+            <p>
+                Successfully completed a 30-day Full Stack Development Masterclass.
+                Learned HTML, CSS, JavaScript, Backend basics, Database concepts,
+                and modern web development practices.
+            </p>
+
+            <a href="assets/novitech.jpg" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="assets/dsa.jpg" alt="DSA Certificate">
+
+            <h3>Data Structures & Algorithms Bootcamp</h3>
+            <h4>DSA Bootcamp</h4>
+
+            <p>
+                Completed a DSA Bootcamp and improved problem-solving skills using
+                arrays, linked lists, stacks, queues, trees, and sorting algorithms.
+            </p>
+
+            <a href="assets/dsa.jpg" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="assets/mongodb.jpg" alt="MongoDB Certificate">
+
+            <h3>MongoDB Certification</h3>
+            <h4>MongoDB</h4>
+
+            <p>
+                Learned MongoDB fundamentals, CRUD operations, collections,
+                documents, and NoSQL database management.
+            </p>
+
+            <a href="assets/mongodb.jpg" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+
+        <div class="certificate-card">
+            <img src="assets/nm.jpg" alt="Naan Mudhalvan Certificate">
+
+            <h3>Naan Mudhalvan Digital Skills</h3>
+            <h4>Naan Mudhalvan</h4>
+
+            <p>
+                Successfully completed the Digital Skills Program and enhanced
+                industry-relevant technical knowledge.
+            </p>
+
+            <a href="assets/nm.jpg" target="_blank" class="btn">
+                View Certificate
+            </a>
+        </div>
+    </div>
+</section>
+<section id="internship">
+
+<h2>Internship</h2>
+
+<div class="internship-card">
+    <h3>full stack development Intern</h3>
+    <p><strong>Company:</strong> Bluon Tech, Kovilpatti</p>
+    <p><strong>Duration:</strong> 15 Days</p>
+    <p>Worked on HTML, CSS and JavaScript projects during the internship.</p>
+</div>
+
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p><strong>Name:</strong> Mallika</p>
+    <p><strong>Email:</strong> mallika24cse@rvce.ac.in</p>
+    <p><strong>Phone:</strong> +91 7305649567</p>
+
+<p><strong>GitHub:</strong> <a href="#"></a>mallika2006</p>
+
+<p><strong>LinkedIn:</strong> <a href="#">https://www.linkedin.com/public-profile/settings/</a></p>
+
+    
+</section>
+<footer>
+    <p>Thsnks for visiting my portfolio.</p>
+    <p>© 2026 Mallika. All Rights Reserved.</p>
+    
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
